@@ -1,0 +1,71 @@
+*{margin: 0;font-family: Arial, Helvetica, sans-serif;}
+.header{display: flex;
+       justify-content: center;
+       height: 9.5vh;
+       align-items: center;
+       padding: 0vh 17vw;
+}
+
+.navbar{display: flex;position: relative;border-bottom: solid blue 2px;padding-bottom: 10px}
+#Home, #Services, #Contact{padding: 2vh 1vw;}
+#Home, #Services, #Contact{text-decoration: none;font-size: 90%;}
+#Home, #Services, #Contact{color: black;}
+#Services:hover{
+  color:rgb(39, 39, 214);
+  transition-duration: 0.25s;
+  transition-timing-function: ease;
+  transition-delay: 0s;}
+#Contact:hover{
+  color:rgb(39, 39, 214);
+  transition-duration: 0.25s;
+  transition-timing-function: ease;
+  transition-delay: 0s;}
+#Home:hover{
+  color:rgb(39, 39, 214);
+  transition-duration: 0.25s;
+  transition-timing-function: ease;
+  transition-delay: 0s;}
+
+.drop-down-menu{display: none;}
+.drop-down-menu{color:black;}
+
+#Home:hover .drop-down-menu{
+  border: blue solid 2px;
+  top: 28px;
+  padding-top: 1vh;
+  position: absolute;
+  background-color: white;
+  width: fit-content;
+  height: fit-content;
+  display: block;
+  right: 10vw;}
+
+#Services:hover .drop-down-menu{
+  border: blue solid 2px;
+  top: 28px;
+  padding-top: 1vh;
+  position: absolute;
+  background-color: white;
+  width: fit-content;
+  height: fit-content;
+  display: block;
+  right: 3vw;}
+
+#Contact:hover .drop-down-menu{
+    border: blue solid 2px;
+    top: 28px;
+    padding-top: 1vh;
+    position: absolute;
+    background-color: white;
+    width: fit-content;
+    height: fit-content;
+    display: block;
+    right: -4vw;}
+
+.drop-down-menu li:hover{
+  background-color:#f5f4f4;
+  color: rgb(39, 39, 214);
+  transition-duration: 0.25s;
+  transition-timing-function: ease;
+  transition-delay: 0s;}
+.drop-down-menu li{padding: 2vh 1vw;list-style: none;}
